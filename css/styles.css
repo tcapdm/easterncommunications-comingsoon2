@@ -318,7 +318,7 @@ width: 100%;
 	.countdown {padding: 20px 0;}
 }
 
-.buttonnn {margin-top: 20px;text-transform:uppercase;background: #4c9e45; color: #fff; font-weight: bold; padding: 10px; display: inline-block;}
+.buttonnn {margin: 20px 0 20%;text-transform:uppercase;background: #4c9e45; color: #fff; font-weight: bold; padding: 10px; display: inline-block;}
 .redirect {-webkit-transition: all 500ms ease-in-out; -moz-transition: all 500ms ease-in-out; -ms-transition: all 500ms ease-in-out; -o-transition: all 500ms ease-in-out; transition: all 500ms ease-in-out;opacity:0;background: rgba(0,0,0,0.9);position: fixed;bottom: 0;left: 0;right: 0;z-index: 1;padding:7px 0;}
 .redirect p {text-align: center;color:#fff;margin: 0;font-size:12px;}
 .redirect p span {font-weight:bold;}
