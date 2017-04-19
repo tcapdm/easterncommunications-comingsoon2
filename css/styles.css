@@ -11,8 +11,9 @@ body {text-align: center;
 	margin:0; 
 	color:#000;
 	background-size:cover;
-	background:url('../images/swirl_pattern.png') top left repeat;overflow: hidden;
+	background:url('../images/swirl_pattern.png') top left repeat;overflow-x: hidden;padding-bottom: 20px;
 }
+section {padding-bottom: 30px;}
 .ie body {
 	filter: dropshadow(color=#000000, offx=0, offy=1);	
 }
@@ -83,7 +84,7 @@ padding:60px 0;
 position: relative;
 width: 100%; 
 z-index: 1;
-padding-top: 50px
+padding-top: 7%;
 }
 .logo{
 width: auto; 
@@ -285,7 +286,7 @@ font-size:15px;
 	margin: 0;
 	padding: 0px;
 	text-align: center;
-	font-size: 29px;
+	font-size: 20px;
 	}
 	.styled {
 	margin: 30px 0;
@@ -306,9 +307,15 @@ width: 100%;
 .text-slide {max-width: 30%;margin:auto;}
 .text-slide img {width: 100%;}
 
-@media (max-width:767px) {
+@media (max-width:768px) {
 	.text-slide {max-width: 60%;}
 	.countdown {padding: 30px 0;}
+}
+
+@media (max-width:400px) {
+	#Header {padding-top:15%;}
+	.text-slide {max-width: 90%;}
+	.countdown {padding: 20px 0;}
 }
 
 .buttonnn {margin-top: 20px;text-transform:uppercase;background: #4c9e45; color: #fff; font-weight: bold; padding: 10px; display: inline-block;}
