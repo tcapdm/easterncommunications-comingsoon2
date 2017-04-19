@@ -310,10 +310,10 @@ width: 100%;
 @media (max-width:768px) {
 	.text-slide {max-width: 60%;}
 	.countdown {padding: 30px 0;}
+	#Header {padding-top:15%;}
 }
 
 @media (max-width:400px) {
-	#Header {padding-top:15%;}
 	.text-slide {max-width: 90%;}
 	.countdown {padding: 20px 0;}
 }
