@@ -1,5 +1,5 @@
 $( function() {
-  var endDate = "June  27, 2017 00:00:00";
+  var endDate = "June  17, 2017 00:00:00";
 
   $('.countdown.simple').countdown({ date: endDate });
 
