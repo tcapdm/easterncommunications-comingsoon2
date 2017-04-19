@@ -28,10 +28,10 @@ $( function() {
 
 $(window).load(function(){
     $('#page-loader').addClass('hidden');
-  //   setTimeout(function(){
-  //     $('.redirect').css({'opacity':1, 'z-index':3});
-  //   countdownTimer();
-  // }, 6000);
+    setTimeout(function(){
+      $('.redirect').css({'opacity':1, 'z-index':3});
+    countdownTimer();
+  }, 6000);
 });
 
 var seconds = 10; // seconds for HTML
