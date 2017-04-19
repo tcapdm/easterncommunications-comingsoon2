@@ -342,7 +342,7 @@ width: 100%;
     
 }
 .page-loader .fa{
-    font-size: 2.5rem;
+    font-size: 10rem;
 }
 .page-loader,
 .page-loader.visible{
@@ -366,14 +366,16 @@ width: 100%;
         text-align: center;
         color: #fff;
         margin-top: -1rem;
-        font-size: 4rem;
+        font-size: 10rem;
     }
         .page-loader div p{
             margin-top: 1.0rem;
-            font-size: 1.0rem;
+            font-size: 3rem;
             color: #fff;
             letter-spacing: -0.05rem;
             padding-left: 0.15rem;
             text-transform: uppercase;
             font-family: 'OpenSans'; 
         }
+
+.page-loader I{font-size:10rem;}
